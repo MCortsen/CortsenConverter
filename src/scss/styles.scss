@@ -1,0 +1,24 @@
+$fontColor: #19a4bd;
+$colorHeading: #111213;
+#content  // div with id: content
+{
+    color: $fontColor;
+}
+body
+
+{
+
+background-color: green
+
+}
+
+
+
+h2
+{
+    color: $colorHeading;
+}
+
+h1{
+    @extend h2;
+    }
